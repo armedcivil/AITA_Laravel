@@ -21,4 +21,6 @@ ENV PATH $PATH:/composer/vendor/bin
 
 WORKDIR /var/www
 
+EXPOSE 5173
+
 RUN composer global require "laravel/installer"
